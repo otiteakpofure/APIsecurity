@@ -1,0 +1,13 @@
+Denail of wallet 
+
+1. in this kind of API calls, the api interacts with a 3rd party API and This kind of attack makes an API becoms too expensive to manage.
+
+
+DEFENSE FOR RESOURCE CONSUMPTION 
+ 1. THREAT MODELLING 
+2. logging and monitoring 
+3. understanding of cost s good for DENIAL OF WALLET 
+4.  rate limiting  which are blanket limits 
+5. Threat modeling is a structured process used to identify, assess, and prioritize potential security threats to a system. It involves systematically analyzing the system to understand and document possible security threats, vulnerabilities, and impacts. The goal is to develop strategies to mitigate or manage these threats before they can be exploited by attackers.
+
+

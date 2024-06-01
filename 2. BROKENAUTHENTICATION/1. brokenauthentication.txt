@@ -1,0 +1,58 @@
+certificate based authentication
+password based authentication
+
+
+OWASP RULE FOR PASSWORD states that password should not be less than 12 characters and last up to 128 characters and there should be no more composition rules 
+
+
+                                  protecting passwrods 
+                    1. accout lockout  2. reCAPTCHA  3. owasp recommend the argon2id password storage and protection
+                    3. credential stuffing  (which is desibred as wehen an attack steals password from a particaular wenste and isue tjhem in other websoite)
+                    4.MFA  5. Blocking attempts from a particular website, 
+
+
+                     JSON WEB TOKEN
+    HOW JWT WORKS IS THIS 
+
+jwt token is written in base 64 , in jwt the client makes a request to the the server and in the reuest back a jwt tokem is offereed tp the client 
+and the client sends it message. it is made up of a header , payload ans isgnatuire . the signraytire is kep by the server and anytime the client want to login , the signeraytir
+is re-calculated and then the client is authenticaatied 
+
+          
+
+          session based authentication
+in this type of authentication, a client send a request to a server 
+and the server generatees a session and this session is used 
+fotr estbalishing connection usually stored in the cookies 
+and this ession is what will the user 
+
+     token based authentication
+
+this follows thr same parttertn the difference 
+is that instread og a session generated a token is genrated 
+and then signed with a private key 
+
+
+difference between session based uathentication vs token based authentication 
+
+1. looks up the session on every request to validate it 
+while TBA decriptr the token and vlidates the signature 
+
+JWT 
+
+In jwt , the parts of the jwt are taken into base 64 
+the signature is = header +payload 
+
+the way jwt token works is that when a user sends in a payload
+the headaer and the payload generates a hash function which is equivalnet to the signatue stored 
+this signature is compared to the one stored in the server 
+
+
+
+security practices for jwt 
+1. have short or small token size (some servers have size limits)
+2. Dont store sensitive data on the token 
+3. have short expirartion and implement fresh tokens 
+4.  set the issuer and audience properties in the token payload 
+
+

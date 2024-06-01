@@ -1,0 +1,28 @@
+BOLA ( broken object level authorization)
+BOLA states that a user being having access to data that he or she should clearly not have access to 
+this is problem because they are some data in which a user can have access to and data which users should not have access to 
+
+
+
+                              OBJECT LEVEL ATTACJS 
+API  ENDPOINTS usually have IDs to represent a particular user or OBJECT
+and ID in a url path is also common in a rest based api  OR ID 
+DATA IN A COOKIE IN BASE 64 
+
+NOTE: as far the requeest habe an ID that the attacker can change it can lead to a vulnerability 
+
+
+
+                                                 BOLA ATTACKS 
+AAS FAR THERE IS AN ID OR PATH TO AND ID , YOU CAN RUN THE bola 
+
+1. you can perform the BOLA atttacks on burpusite can interrcepting the rquest and sending request using the numbers in the request to simulate attacks 
+
+  
+
+                                          BOLA DEFENSE 
+1. USING ACCESS CONTROL IS access control/ AUTHORIZATION CHECKS , which means an API must authorize peolle 
+2. OAuth for secure API authorization and JSON Web Tokens (JWT) for secure data transmission.
+
+
+

@@ -1,0 +1,17 @@
+this is common a design problem 
+
+
+
+this is happens whem a a api stores too many information and when interacted with relaseas information that the user should normally not have access tp 
+for example , a user who interacts with an API and then maybe the user forgets his password and the user want to talk with the api to restore his password 
+
+
+
+HOW DOES THIS WORK 
+The attacker just gueesses 
+
+
+
+defense 
+only accept the properties you want to accept 
+all data 
